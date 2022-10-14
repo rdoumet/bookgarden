@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: black;
+}
+
+h3{
+    color: white;
+    margin-bottom: 24px;
+}
+
+p{
+    margin-top:12px;
+    color: white;
+    size: 10px;
+    font-weight: 200;
+}
+
+.header{
+    background-color: black;
+}
+
+.main{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr)
+}
+
+
+@media screen and (min-width: 390px){
+
+    .bookgarden-logo{
+        width: 180px;
+        margin:12px;
+    }
+
+    #hello{
+        margin: 48px 0px 24px 12px;
+        font-size: 1.6rem;
+    }
+
+    .section-title{ 
+        margin: 12px 0px 12px 12px;
+        font-size: 1.2rem;
+    }
+
+    .main{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .author-trending, .currently-reading, .similar-genre, .author-trending,
+    .similar-genre, .similar-author, .follow-section, .top-rated {
+        display: grid;
+        margin: 12px;
+        grid-template-columns:repeat(4, 1fr);
+        grid-auto-flow: row;
+        gap:12px;
+    }
+
+    p{
+        margin-top:12px;
+        color: white;
+        font-size: 12px;
+        font-weight: 100;
+    }
+
+.books{
+    width: 20vw;
+    height: auto;
+    padding: 3fr;
+}
+    
+}
+
+@media screen and (min-width: 700px){
+
+    .author-trending, .currently-reading, .similar-genre, .author-trending,
+    .similar-genre, .similar-author, .follow-section, .top-rated {
+    display: grid;
+    margin: 12px;
+    grid-template-columns:repeat(8, 1fr);
+    grid-auto-flow: row;
+    gap:12px;
+}
+
+.books{
+    width: 10vw;
+    height: auto;
+}
+}
+
+
+@media screen and (min-width: 1024px){
+    .main{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 48px;
+    }
+
+.author-trending, .currently-reading, .similar-genre, .author-trending,
+.similar-genre, .similar-author, .follow-section, .top-rated {
+        display: grid;
+        margin: 12px;
+        grid-template-columns:repeat(9, 1fr);
+        grid-auto-flow: row;
+        gap:12px;
+    }
+
+    .books{
+        width: 7vw;
+        height: auto;
+    }
+    }

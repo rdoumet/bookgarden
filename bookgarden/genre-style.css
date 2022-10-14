@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+@media screen and (min-width: 200px) {
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .logo-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90px;
+        justify-content: center
+    }
+    
+    .bookgarden-logo{
+        margin-top: 12px;
+        width: 160px;
+    }
+
+
+    #title{
+        display: flex;
+        margin-top: 3vh;
+        color: white;
+        font-size: 1.2fr;
+    }
+
+    .selection{
+        display: grid;
+        margin-top: 6vh;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(12,auto);
+        align-items: center;
+        justify-items: center;
+        justify-content: space-between;
+        gap: 12px;
+    }
+
+    .chip-wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+        width: 120px;
+        border-radius: 64px;
+        border: solid 3px rgb(255, 0, 0);
+        transition: 1s;
+        background-size: cover;
+        background-position: center;
+        filter: opacity(60%);
+        color:white;
+        transition: 0.8s;
+    }
+
+    .chip1{
+    background-image: url("img/orwell.jpeg");
+   }
+
+   .chip2{
+    background-image: url("img/hemingway.jpeg");
+   }
+
+   .chip3{
+    background-image: url("img/anne_rice.jpeg");
+   }
+
+   .chip1:hover, .chip2:hover, .chip3:hover, .chip4:hover, .chip5:hover,
+   .chip6:hover, .chip7:hover, .chip8:hover, .chip9:hover, .chip10:hover,
+   .chip11:hover, .chip12:hover, .chip13:hover, .chip14:hover, .chip15:hover,
+   .chip16:hover, .chip17:hover, .chip18:hover, .chip19:hover, .chip20:hover, 
+   .chip21:hover, .chip22:hover, .chip23:hover, .chip24:hover {
+    filter: opacity(100%);
+   }
+
+
+   .chip4{
+    background-image: url("img/stephen_king.jpeg");
+   }
+
+   .chip5{
+    background-image: url("img/jkrowling.jpeg");
+   }
+
+   .chip6{
+    background-image: url("img/kafka.jpeg");
+   }
+
+   .chip7{
+    background-image: url("img/capote.jpeg");
+    }
+
+   .chip8{
+    background-image: url("img/garcia_marquez.webp");
+   }
+
+   .chip9{
+    background-image: url("img/murakami.jpeg");
+   }
+
+   .chip10{
+    background-image: url("img/aristotle.jpeg");
+    }
+
+   .chip11{
+    background-image: url("img/fitzgerald.jpeg");
+   }
+
+   .chip12{
+    background-image: url("img/cslewis.jpeg");
+   }
+
+   .chip13{
+    background-image: url("img/wilde.webp");
+   }
+
+   .chip14{
+    background-image: url("img/shakespeare.jpeg");
+   }
+
+   .chip15{
+    background-image: url("img/isaacson.webp");
+   }
+
+   .chip16{
+    background-image: url("img/twain.webp");
+   }
+
+   .chip17{
+    background-image: url("img/douglas-adams.jpeg");
+   }
+
+   .chip18{
+    background-image: url("img/el_james.jpeg");
+   }
+
+   .chip19{
+    background-image: url("img/aristotle.jpeg");
+    }
+
+   .chip20{
+    background-image: url("img/crichton.jpeg");
+    }
+
+   .chip21{
+    background-image: url("img/dickens.jpeg");
+   }
+
+   .chip22{
+    background-image: url("img/polybius.jpeg");
+    }
+
+   .chip23{
+    background-image: url("img/philip-k-dick.webp");
+   }
+
+   .chip24{
+    background-image: url("img/benedetti.webp");
+   }
+}
+
+@media screen and (min-width: 700px){
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .logo-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90px;
+        justify-content: center
+    }
+    
+    .bookgarden-logo{
+        margin-top: 12px;
+        width: 160px;
+    }
+
+
+    #title{
+        display: flex;
+        margin-top: 3vh;
+        color: white;
+        font-size: 1.2fr;
+    }
+
+    .selection{
+        display: grid;
+        margin-top: 6vh;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(12,auto);
+        align-items: center;
+        justify-items: center;
+        justify-content: space-between;
+        gap: 24px;
+    }
+
+    .chip-wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+        width: 120px;
+        border-radius: 64px;
+        border: solid 3px rgb(255, 0, 0);
+        transition: 1s;
+        background-size: cover;
+        background-position: center;
+        filter: opacity(60%);
+        color:white;
+        transition: 0.8s;
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .logo-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90px;
+        justify-content: center
+    }
+    
+    .bookgarden-logo{
+        align-self: flex-start;
+        margin-top: 12px;
+        width: 160px;
+    }
+
+
+    #title{
+        display: flex;
+        margin-top: 3vh;
+        color: white;
+        font-size: 1.2fr;
+    }
+
+    .selection{
+        display: grid;
+        margin-top: 6vh;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(12,auto);
+        align-items: center;
+        justify-items: center;
+        justify-content: space-between;
+        gap: 24px;
+    }
+
+    .chip-wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+        width: 120px;
+        border-radius: 64px;
+        border: solid 3px rgb(255, 0, 0);
+        transition: 1s;
+        background-size: cover;
+        background-position: center;
+        filter: opacity(60%);
+        color:white;
+        transition: 0.8s;
+    }
+}
